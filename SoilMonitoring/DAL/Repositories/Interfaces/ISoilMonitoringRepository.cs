@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DAL.Repositories.Interfaces
 {
-    interface ISoilMonitoring : IRepository<SoilMonitoring>
+    public interface ISoilMonitoringRepository : IRepository<SoilMonitoring>
     {
     }
 }

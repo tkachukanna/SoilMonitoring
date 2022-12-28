@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class Area
+    public class Area
     {
         public int IdArea { get; set; }
         public string Type { get; set; }

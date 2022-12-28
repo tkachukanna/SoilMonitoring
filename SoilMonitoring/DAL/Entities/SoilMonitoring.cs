@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class SoilMonitoring
+    public class SoilMonitoring
     {
         public int IdSoilMonitoring { get; set; }
         public string Name { get; set; }
